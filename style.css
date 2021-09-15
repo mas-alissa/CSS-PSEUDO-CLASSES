@@ -1,0 +1,64 @@
+/* deel 1 */
+
+.hover {
+  color: black;
+}
+.hover:hover {
+  color: lightblue;
+  font-weight: 900;
+}
+
+.active {
+  color: black;
+}
+
+.active:active {
+  color: red;
+  font-style: italic;
+}
+
+.visited {
+  color: black;
+}
+
+.visited:visited {
+  color: yellow;
+}
+
+.focus:focus {
+  background-color: green;
+  font-size: 20px;
+}
+
+/* deel 2 */
+
+body {
+  margin: 0;
+}
+ul.ul-flex {
+  display: flex;
+  list-style-type: none;
+
+  padding: 0;
+  justify-content: space-between;
+  background-color: darkblue;
+}
+ul li a {
+  color: white;
+}
+
+.currentPage {
+  background-color: #6699cc;
+}
+
+ul li:hover {
+  background-color: lightblue;
+}
+
+ul li input[type="search"]:focus {
+  border: 3px solid #05c3dd;
+}
+
+nav {
+  margin-top: 30px;
+}
